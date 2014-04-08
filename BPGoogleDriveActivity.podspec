@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BPGoogleDriveActivity"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "BPGoogleDriveActivity is an iOS UIActivity subclass for uploading to Google Drive."
   s.description      = <<-DESC
 An iOS UIActivity subclass implementing uploads to Dropbox – Based on [GSDropboxActivity](https://github.com/goosoftware/GSDropboxActivity).
