@@ -1,7 +1,1 @@
 pod "BPGoogleDriveActivity", :path => "../"
-
-target "Demo" do
-end
-
-target "DemoTests" do
-end
