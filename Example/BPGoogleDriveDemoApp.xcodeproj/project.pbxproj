@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E403BA95CF74CFA9221C80E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C343856241B1433E91A08CAC /* libPods.a */; };
+		DD2547E018F38E19006BD7AD /* BPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2547DB18F38E19006BD7AD /* BPAppDelegate.m */; };
+		DD2547E118F38E19006BD7AD /* BPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2547DD18F38E19006BD7AD /* BPViewController.m */; };
+		DD2547E218F38E19006BD7AD /* BPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2547DE18F38E19006BD7AD /* BPViewController.xib */; };
+		F40DF033166255800050E22C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DF032166255800050E22C /* UIKit.framework */; };
+		F40DF035166255800050E22C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DF034166255800050E22C /* Foundation.framework */; };
+		F40DF037166255800050E22C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DF036166255800050E22C /* CoreGraphics.framework */; };
+		F40DF03D166255800050E22C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F40DF03B166255800050E22C /* InfoPlist.strings */; };
+		F40DF03F166255800050E22C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F40DF03E166255800050E22C /* main.m */; };
+		F40DF045166255800050E22C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F40DF044166255800050E22C /* Default.png */; };
+		F40DF047166255800050E22C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F40DF046166255800050E22C /* Default@2x.png */; };
+		F40DF049166255800050E22C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F40DF048166255800050E22C /* Default-568h@2x.png */; };
+		F40DF056166255D80050E22C /* kitten-thumbnail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F40DF055166255D80050E22C /* kitten-thumbnail.jpg */; };
+		F40DF0791662581C0050E22C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DF0781662581C0050E22C /* QuartzCore.framework */; };
+		F40DF07B166258220050E22C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DF07A166258220050E22C /* Security.framework */; };
+		F40DF08816625D5F0050E22C /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F40DF08716625D5F0050E22C /* kitten.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65FE29AC604B43B4BD455926 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C343856241B1433E91A08CAC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2547DA18F38E19006BD7AD /* BPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAppDelegate.h; sourceTree = "<group>"; };
+		DD2547DB18F38E19006BD7AD /* BPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAppDelegate.m; sourceTree = "<group>"; };
+		DD2547DC18F38E19006BD7AD /* BPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPViewController.h; sourceTree = "<group>"; };
+		DD2547DD18F38E19006BD7AD /* BPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPViewController.m; sourceTree = "<group>"; };
+		DD2547DF18F38E19006BD7AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BPViewController.xib; sourceTree = "<group>"; };
+		F40DF02E166255800050E22C /* BPGoogleDriveDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPGoogleDriveDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40DF032166255800050E22C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F40DF034166255800050E22C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F40DF036166255800050E22C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F40DF03A166255800050E22C /* BPGoogleDriveDemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BPGoogleDriveDemoApp-Info.plist"; sourceTree = "<group>"; };
+		F40DF03C166255800050E22C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F40DF03E166255800050E22C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F40DF040166255800050E22C /* BPGoogleDriveDemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BPGoogleDriveDemoApp-Prefix.pch"; sourceTree = "<group>"; };
+		F40DF044166255800050E22C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F40DF046166255800050E22C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F40DF048166255800050E22C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F40DF055166255D80050E22C /* kitten-thumbnail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kitten-thumbnail.jpg"; sourceTree = "<group>"; };
+		F40DF06E166257BB0050E22C /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		F40DF0781662581C0050E22C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F40DF07A166258220050E22C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F40DF08716625D5F0050E22C /* kitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40DF02B166255800050E22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40DF07B166258220050E22C /* Security.framework in Frameworks */,
+				F40DF0791662581C0050E22C /* QuartzCore.framework in Frameworks */,
+				F40DF033166255800050E22C /* UIKit.framework in Frameworks */,
+				F40DF035166255800050E22C /* Foundation.framework in Frameworks */,
+				F40DF037166255800050E22C /* CoreGraphics.framework in Frameworks */,
+				8E403BA95CF74CFA9221C80E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40DF023166255800050E22C = {
+			isa = PBXGroup;
+			children = (
+				F40DF038166255800050E22C /* BPGoogleDriveDemoApp */,
+				F40DF031166255800050E22C /* Frameworks */,
+				F40DF02F166255800050E22C /* Products */,
+				65FE29AC604B43B4BD455926 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		F40DF02F166255800050E22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40DF02E166255800050E22C /* BPGoogleDriveDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40DF031166255800050E22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F40DF036166255800050E22C /* CoreGraphics.framework */,
+				F40DF06E166257BB0050E22C /* DropboxSDK.framework */,
+				F40DF034166255800050E22C /* Foundation.framework */,
+				F40DF0781662581C0050E22C /* QuartzCore.framework */,
+				F40DF07A166258220050E22C /* Security.framework */,
+				F40DF032166255800050E22C /* UIKit.framework */,
+				C343856241B1433E91A08CAC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F40DF038166255800050E22C /* BPGoogleDriveDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				DD2547DA18F38E19006BD7AD /* BPAppDelegate.h */,
+				DD2547DB18F38E19006BD7AD /* BPAppDelegate.m */,
+				DD2547DC18F38E19006BD7AD /* BPViewController.h */,
+				DD2547DD18F38E19006BD7AD /* BPViewController.m */,
+				DD2547DE18F38E19006BD7AD /* BPViewController.xib */,
+				F40DF039166255800050E22C /* Supporting Files */,
+			);
+			path = BPGoogleDriveDemoApp;
+			sourceTree = "<group>";
+		};
+		F40DF039166255800050E22C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F40DF055166255D80050E22C /* kitten-thumbnail.jpg */,
+				F40DF08716625D5F0050E22C /* kitten.jpg */,
+				F40DF03A166255800050E22C /* BPGoogleDriveDemoApp-Info.plist */,
+				F40DF03B166255800050E22C /* InfoPlist.strings */,
+				F40DF03E166255800050E22C /* main.m */,
+				F40DF040166255800050E22C /* BPGoogleDriveDemoApp-Prefix.pch */,
+				F40DF044166255800050E22C /* Default.png */,
+				F40DF046166255800050E22C /* Default@2x.png */,
+				F40DF048166255800050E22C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40DF02D166255800050E22C /* BPGoogleDriveDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40DF052166255800050E22C /* Build configuration list for PBXNativeTarget "BPGoogleDriveDemoApp" */;
+			buildPhases = (
+				EAD0397662214B0F94F92C14 /* Check Pods Manifest.lock */,
+				F40DF02A166255800050E22C /* Sources */,
+				F40DF02B166255800050E22C /* Frameworks */,
+				F40DF02C166255800050E22C /* Resources */,
+				9CC32C37D1804360BAFA48ED /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BPGoogleDriveDemoApp;
+			productName = BPGoogleDriveDemoApp;
+			productReference = F40DF02E166255800050E22C /* BPGoogleDriveDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40DF025166255800050E22C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Goo Software Ltd";
+			};
+			buildConfigurationList = F40DF028166255800050E22C /* Build configuration list for PBXProject "BPGoogleDriveDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F40DF023166255800050E22C;
+			productRefGroup = F40DF02F166255800050E22C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40DF02D166255800050E22C /* BPGoogleDriveDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40DF02C166255800050E22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40DF03D166255800050E22C /* InfoPlist.strings in Resources */,
+				F40DF045166255800050E22C /* Default.png in Resources */,
+				F40DF047166255800050E22C /* Default@2x.png in Resources */,
+				F40DF049166255800050E22C /* Default-568h@2x.png in Resources */,
+				F40DF056166255D80050E22C /* kitten-thumbnail.jpg in Resources */,
+				F40DF08816625D5F0050E22C /* kitten.jpg in Resources */,
+				DD2547E218F38E19006BD7AD /* BPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CC32C37D1804360BAFA48ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD0397662214B0F94F92C14 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40DF02A166255800050E22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2547E118F38E19006BD7AD /* BPViewController.m in Sources */,
+				DD2547E018F38E19006BD7AD /* BPAppDelegate.m in Sources */,
+				F40DF03F166255800050E22C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD2547DE18F38E19006BD7AD /* BPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2547DF18F38E19006BD7AD /* en */,
+			);
+			name = BPViewController.xib;
+			sourceTree = "<group>";
+		};
+		F40DF03B166255800050E22C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40DF03C166255800050E22C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F40DF050166255800050E22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F40DF051166255800050E22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40DF053166255800050E22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FE29AC604B43B4BD455926 /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BPGoogleDriveDemoApp/BPGoogleDriveDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "BPGoogleDriveDemoApp/BPGoogleDriveDemoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F40DF054166255800050E22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FE29AC604B43B4BD455926 /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BPGoogleDriveDemoApp/BPGoogleDriveDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "BPGoogleDriveDemoApp/BPGoogleDriveDemoApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40DF028166255800050E22C /* Build configuration list for PBXProject "BPGoogleDriveDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40DF050166255800050E22C /* Debug */,
+				F40DF051166255800050E22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40DF052166255800050E22C /* Build configuration list for PBXNativeTarget "BPGoogleDriveDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40DF053166255800050E22C /* Debug */,
+				F40DF054166255800050E22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40DF025166255800050E22C /* Project object */;
+}
