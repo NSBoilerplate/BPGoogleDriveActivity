@@ -28,14 +28,17 @@ it simply add the following line to your Podfile:
 ## 2. Add initialize BPGoogleDrive in your app delegate:
 
 ```objective-c
-#import <DropboxSDK/DropboxSDK.h>
+#import <BPGoogleDriveActivity/BPGoogleDrive.h>
 
 ...
 
-DBSession* dbSession = [[DBSession alloc] initWithAppKey:@"APP_KEY"
-                                               appSecret:@"APP_SECRET"
-                                                    root:ACCESS_TYPE]; // either kDBRootAppFolder or kDBRootDropbox
-[DBSession setSharedSession:dbSession];
+	NSString *driveClientID = @"CLIENT_ID";
+	NSString *driveAppSecret = @"APP_SECRET";
+	NSString *driveScope = kGTLAuthScopeDrive;
+
+	BPGoogleDrive *drive = [[BPGoogleDrive alloc] initWithClientID:driveClientID appSecret:driveAppSecret scope:driveScope];
+	[BPGoogleDrive setSharedDrive:drive];
+	
 ```
 
 
